@@ -3,11 +3,11 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import SectionTitle from '../../SectionTitle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-	faCalendarAlt,
-	faCalendarCheck,
+	faEnvelopeCircleCheck,
 	faHandHoldingDollar,
 	faLocationDot,
-	faPersonMilitaryPointing
+	faPersonMilitaryPointing,
+	faPhone
 } from '@fortawesome/free-solid-svg-icons';
 
 const JobDetail = () => {
@@ -51,7 +51,7 @@ const JobDetail = () => {
 				</div>
 
 				{/* right side */}
-				<div className='max-w-[300px] m-auto'>
+				<div className='max-w-[340px] m-auto'>
 					<div className='p-8 bg-gradient-to-tr from-violet-200 to-sky-100 rounded-lg'>
 						<div className='pb-5'>
 							<h3 className='font-bold text-xl border-b border-gray-400 pb-3 mb-3'>Job Derails</h3>
@@ -70,12 +70,12 @@ const JobDetail = () => {
 						<div>
 							<h3 className='font-bold text-xl border-b border-gray-400 pb-3 mb-3'>Contact Information</h3>
 							<p className='mb-3'>
-								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faHandHoldingDollar} />
+								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faPhone} />
 								<span className='font-semibold'>Phone :</span>
 								<span className='text-gray-600'> {contactInformation.phone}</span>
 							</p>
 							<p className='mb-3'>
-								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faPersonMilitaryPointing} />
+								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faEnvelopeCircleCheck} />
 								<span className='font-semibold'>Email :</span>
 								<span className='text-gray-600'> {contactInformation.email}</span>
 							</p>
