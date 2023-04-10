@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SinglePost = ({ jobPost, handleJobDetail }) => {
+const SinglePost = ({ jobPost }) => {
 	const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, fulltimeOrPartTime, location, salary } = jobPost;
 	return (
 		<div className='border border-gray-300 shadow-lg rounded-md p-5 max-w-lg'>
@@ -28,11 +28,7 @@ const SinglePost = ({ jobPost, handleJobDetail }) => {
 				</p>
 			</div>
 			<Link to={`/job/${id}`}>
-				<button
-					onClick={() => handleJobDetail(id)}
-					className='btn bg-gradient-to-r from-sky-400 to-violet-600 border-0 mt-7'>
-					View Detail
-				</button>
+				<button className='btn bg-gradient-to-r from-sky-400 to-violet-600 border-0 mt-7'>View Detail</button>
 			</Link>
 		</div>
 	);
