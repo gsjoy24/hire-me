@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
 	return (
-		<div className='navbar bg-base-100 px-12 sticky top-0 z-50 shadow-md'>
+		<div className='navbar bg-base-100 px-12 sticky top-0 z-50 shadow-md shadow-violet-300'>
 			<div className='navbar-start w-full lg:w-1/2 justify-between'>
 				<Link to='/'>
 					<span className='btn btn-ghost normal-case text-xl md:text-3xl font-bold'>
