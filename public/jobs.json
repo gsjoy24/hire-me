@@ -1,0 +1,218 @@
+[
+	{
+		"id": "1a2b3",
+		"jobTitle": "Software Engineer",
+		"companyLogo": "https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png",
+		"companyName": "Google",
+		"location": "New York, NY",
+		"salary": "$100,000 - $120,000",
+		"jobDescription": "We are seeking a talented and experienced software engineer to join our team and help us develop innovative software solutions. As a software engineer, you will be responsible for designing and implementing software programs, debugging and testing code, and collaborating with cross-functional teams to ensure successful project delivery. The ideal candidate will have strong programming skills, experience with software development methodologies, and a passion for developing high-quality software products. If you're a self-starter who thrives in a fast-paced, collaborative environment, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Designing and implementing software programs, debugging and testing code, and collaborating with cross-functional teams to ensure successful project delivery.",
+		"educationalRequirements": "Candidates should have a degree in computer science.",
+		"experiences": "We prefer candidates with at least 5 years of experience.",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "555-1234",
+			"email": "google@example.com"
+		}
+	},
+	{
+		"id": "4c5d6",
+		"jobTitle": "Marketing Manager",
+		"companyLogo": "https://www.freepnglogos.com/uploads/mobile-marketing-logo-png-12.png",
+		"companyName": "Mobile Marketing",
+		"location": "San Francisco, CA",
+		"salary": "$90,000 - $110,000",
+		"jobDescription": "We are seeking a highly skilled and experienced Marketing Manager to lead our marketing efforts and drive business growth. As a Marketing Manager, you will be responsible for developing and implementing marketing strategies, managing and mentoring a team of marketing professionals, and collaborating with cross-functional teams to ensure successful campaign delivery. The ideal candidate will have a strong track record of success in marketing management, excellent communication and leadership skills, and a passion for driving business results. If you're a strategic thinker who is results-oriented and customer-focused, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Developing and implementing marketing strategies, managing and mentoring a team of marketing professionals, and ensuring successful campaign delivery.",
+		"educationalRequirements": "Candidates should have a degree in marketing or a related field",
+		"experiences": "We prefer candidates with at least 7 years of experience in marketing",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "555-5678",
+			"email": "marketing@example.com"
+		}
+	},
+	{
+		"id": "7e8f9",
+		"jobTitle": "Graphic Designer",
+		"companyLogo": "https://www.freepnglogos.com/uploads/company-logo-png/brand-tibco-logo-palo-alto-company-png-34.png",
+		"companyName": "Tibco",
+		"location": "Chicago, IL",
+		"salary": "$60,000 - $80,000",
+		"jobDescription": "We are looking for a creative and talented Graphic Designer to join our team. As a Graphic Designer, you will be responsible for creating visual concepts that communicate our brand message to our target audience. You will work on a variety of projects including print and digital media, websites, and social media platforms. The ideal candidate will have strong design skills, be able to work independently and as part of a team, and be up-to-date with the latest design trends and software. If you're a creative thinker with a passion for design, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Creating visual concepts, designing and producing print and digital materials, collaborating with teams, managing design files, staying up-to-date with design trends, and presenting design solutions.",
+		"educationalRequirements": "Candidates should have a degree in graphic design or a related field.",
+		"experiences": "We prefer candidates with at least 3 years of experience in graphic design.",
+		"remoteOrOnsite": "Remote",
+		"fulltimeOrPartTime": "Part-time",
+		"contactInformation": {
+			"phone": "555-9012",
+			"email": "tibco@example.com"
+		}
+	},
+	{
+		"id": "1g2h3",
+		"jobTitle": "Data Analyst",
+		"companyLogo": "https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png",
+		"companyName": "Apple",
+		"location": "Boston, MA",
+		"salary": "$80,000 - $100,000",
+		"jobDescription": "We are seeking a skilled and experienced Data Analyst to join our team. As a Data Analyst, you will be responsible for collecting, analyzing, and interpreting complex data sets to inform business decisions and strategy. You will work on a variety of projects to extract insights from data, and communicate these insights to stakeholders. The ideal candidate will have strong analytical skills, attention to detail, and experience with data analysis tools and software. If you're a strategic thinker who is results-driven and has a passion for data-driven decision-making, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Collecting, analyzing, and interpreting data, creating and maintaining databases, developing data-driven reports and visualizations, and communicating insights to stakeholders.",
+		"educationalRequirements": "Candidates should have a degree in mathematics, statistics, or a related field.",
+		"experiences": "We prefer candidates with at least 2 years of experience in data analysis.",
+		"remoteOrOnsite": "Remote",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "555-3456",
+			"email": "apple@example.com"
+		}
+	},
+	{
+		"id": "4i5j6",
+		"jobTitle": "Product Manager",
+		"companyLogo": "https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png",
+		"companyName": "Spotify",
+		"location": "Los Angeles, CA",
+		"salary": "$120,000 - $140,000",
+		"jobDescription": "We are looking for an experienced and driven Product Manager to join our team. As a Product Manager, you will be responsible for developing and executing product strategies that drive business growth and customer satisfaction. You will work closely with cross-functional teams to identify and prioritize product features and enhancements, and ensure that they align with business goals and user needs. The ideal candidate will have strong strategic thinking and communication skills, and experience managing products from ideation to launch. If you're a results-driven problem solver who is passionate about delivering exceptional customer experiences, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Developing and executing product strategies, identifying and prioritizing product features, working with cross-functional teams, ensuring alignment with business goals and user needs, and managing products from ideation to launch.",
+		"educationalRequirements": "Candidates should have a degree in business administration, marketing, or a related field.",
+		"experiences": "We prefer candidates with at least 7 years of experience in product management.",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "555-6789",
+			"email": "spotify@example.com"
+		}
+	},
+	{
+		"id": "7k8l9",
+		"jobTitle": "UX/UI Designer",
+		"companyLogo": "https://www.freepnglogos.com/uploads/logo-tokopedia-png/tokopedia-udemy-logos-download-16.png",
+		"companyName": "Udemy",
+		"location": "Seattle, WA",
+		"salary": "$90,000 - $110,000",
+		"jobDescription": "We are seeking a talented UX/UI Designer to join our team. As a UX/UI Designer, you will be responsible for creating intuitive user interfaces and engaging user experiences across a variety of digital platforms. You will conduct user research to inform design decisions, collaborate with cross-functional teams, and stay up-to-date with the latest design trends and technologies. The ideal candidate will have a strong portfolio showcasing their design skills, as well as experience with design tools and software. If you're a creative problem solver who is passionate about creating exceptional user experiences, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Creating intuitive user interfaces, designing engaging user experiences, conducting user research, collaborating with cross-functional teams, and staying up-to-date with the latest design trends and technologies.",
+		"educationalRequirements": "Candidates should have a degree in graphic design, human-computer interaction, or a related field.",
+		"experiences": "We prefer candidates with at least 4 years of experience in UX/UI design.",
+		"remoteOrOnsite": "Remote",
+		"fulltimeOrPartTime": "Part-time",
+		"contactInformation": {
+			"phone": "555-1234",
+			"email": "udemy@example.com"
+		}
+	},
+	{
+		"id": "7e849",
+		"jobTitle": "Sales Representative",
+		"companyLogo": "https://www.freepnglogos.com/uploads/starbucks-logo-png-transparent-0.png",
+		"companyName": "Starbucks",
+		"location": "Chicago, IL",
+		"salary": "$50,000 - $70,000",
+		"jobDescription": "We are seeking a motivated and results-driven Sales Representative to join our team. As a Sales Representative, you will be responsible for generating leads, qualifying prospects, and closing deals to meet or exceed sales targets. You will maintain strong customer relationships and stay up-to-date with industry trends and the competitive landscape. The ideal candidate will have excellent communication and negotiation skills, as well as experience with sales processes and tools. If you're a self-starter who is passionate about achieving results and providing exceptional customer service, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Generating leads, qualifying prospects, closing deals, maintaining customer relationships, meeting or exceeding sales targets, and staying up-to-date with industry trends and competitive landscape.",
+		"educationalRequirements": "A high school diploma or equivalent is required, but a degree in business administration, marketing, or a related field is preferred.",
+		"experiences": "At least 2 years of experience in sales is preferred.",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Part-time",
+		"contactInformation": {
+			"phone": "555-5555",
+			"email": "starbucks@example.com"
+		}
+	},
+	{
+		"id": "0a1b2",
+		"jobTitle": "Accountant",
+		"companyLogo": "https://www.freepnglogos.com/uploads/shopee-logo-png/shopee-logo-digital-economy-forum-mdcc-1.png",
+		"companyName": "Shopee",
+		"location": "Seattle, WA",
+		"salary": "$70,000 - $90,000",
+		"jobDescription": "We are seeking an experienced and detail-oriented Accountant to join our team. As an Accountant, you will be responsible for maintaining accurate financial records, preparing financial statements and reports, and ensuring compliance with accounting principles and regulations. You will manage accounts payable and receivable, perform account reconciliations, and provide financial analysis and advice to management. The ideal candidate will have a strong understanding of accounting principles, as well as experience with accounting software and financial analysis tools. If you're a problem solver who is passionate about ensuring accurate financial reporting and providing valuable insights, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Maintaining financial records, preparing financial statements and reports, ensuring compliance with accounting principles and regulations, managing accounts payable and receivable, and providing financial analysis and advice.",
+		"educationalRequirements": "A degree in accounting or a related field is required.",
+		"experiences": "We prefer candidates with at least 5 years of experience in accounting.",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Part-time",
+		"contactInformation": {
+			"phone": "125-5555",
+			"email": "shopee@example.com"
+		}
+	},
+	{
+		"id": "3c2a1",
+		"jobTitle": "Human Resources Manager",
+		"companyLogo": "https://www.freepnglogos.com/uploads/whatsapp-png-14.png",
+		"companyName": "Whatsapp",
+		"location": "Miami, FL",
+		"salary": "$90,000 - $120,000",
+		"jobDescription": "We are seeking an experienced and dynamic Human Resources Manager to lead our HR department. As an HR Manager, you will be responsible for developing and implementing HR strategies, policies, and programs that support the company's goals and values. You will manage all aspects of the employee lifecycle, including recruiting, onboarding, performance management, and employee relations. You will also ensure compliance with all HR laws and regulations and provide guidance and support to employees and managers on HR-related matters. The ideal candidate will have a strong understanding of HR best practices and regulations, as well as experience managing a team. If you're a strategic thinker with excellent communication and interpersonal skills, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Developing and implementing HR strategies, policies, and programs; managing all aspects of the employee lifecycle; ensuring compliance with HR laws and regulations; providing guidance and support to employees and managers on HR-related matters.",
+		"educationalRequirements": "A degree in human resources, business administration, or a related field is required.",
+		"experiences": "We prefer candidates with at least 8 years of experience in human resources management.",
+		"remoteOrOnsite": "Remote",
+		"fulltimeOrPartTime": "Part-time",
+		"contactInformation": {
+			"phone": "555-13255",
+			"email": "whatsapp@example.com"
+		}
+	},
+	{
+		"id": "1234",
+		"jobTitle": "Senior Data Analyst",
+		"companyLogo": "https://www.freepnglogos.com/uploads/telegram-logo-11.png",
+		"companyName": "Data Analytics Co.",
+		"location": "Boston, MA",
+		"salary": "$90,000 - $110,000",
+		"jobDescription": "We are seeking a Senior Data Analyst to join our team and help us make data-driven decisions. As a Senior Data Analyst, you will be responsible for analyzing complex data sets, developing and implementing data models and reporting systems, and providing insights and recommendations to key stakeholders. You will work closely with cross-functional teams to identify opportunities to improve business performance and solve complex problems. The ideal candidate will have a strong background in statistics, data analysis, and data visualization, as well as experience with SQL, Python, and statistical analysis tools. If you're a critical thinker with a passion for using data to drive business outcomes, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Analyzing complex data sets, developing and implementing data models and reporting systems, providing insights and recommendations to key stakeholders, and working closely with cross-functional teams to improve business performance and solve complex problems.",
+		"educationalRequirements": "A Bachelor's or Master's degree in Mathematics, Statistics, Computer Science, or a related field.",
+		"experiences": "5+ years of experience in data analysis, experience with data visualization tools, experience with SQL and programming languages such as Python or R",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "(555) 555-5555",
+			"email": "jobs@dataanalyticsco.com"
+		}
+	},
+	{
+		"id": "5678",
+		"jobTitle": "Frontend Developer",
+		"companyLogo": "https://www.freepnglogos.com/uploads/tupperware-png-logo/tupperware-transparent-png-logo-2.png",
+		"companyName": "Web Development Co.",
+		"location": "San Francisco, CA",
+		"salary": "$80,000 - $100,000",
+		"jobDescription": "We are looking for a talented Frontend Developer to join our team and help us build responsive and user-friendly web applications. As a Frontend Developer, you will be responsible for designing and implementing web applications that are visually appealing, easy to use, and responsive across different devices. You will work closely with the UX/UI design team to ensure a seamless user experience and collaborate with the backend development team to ensure optimal performance. The ideal candidate will have experience with HTML, CSS, JavaScript, and popular frontend frameworks like React and Angular. If you have a passion for creating intuitive and dynamic web applications, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Designing and implementing user-friendly, responsive web applications and collaborating with cross-functional teams to ensure seamless user experience and optimal performance.",
+		"educationalRequirements": "A Bachelor's or Master's degree in Computer Science or a related field",
+		"experiences": "3+ years of experience in frontend development, experience with modern frontend frameworks like React or Angular, experience with CSS and preprocessors like Sass or Less",
+		"remoteOrOnsite": "Remote",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "(555) 555-5555",
+			"email": "jobs@webdevelopmentco.com"
+		}
+	},
+	{
+		"id": "9012",
+		"jobTitle": "Digital Marketing Specialist",
+		"companyLogo": "https://www.freepnglogos.com/uploads/netflix-logo-0.png",
+		"companyName": "Netflix ",
+		"location": "New York, NY",
+		"salary": "$60,000 - $80,000",
+		"jobDescription": "We are seeking a creative and data-driven Digital Marketing Specialist to join our marketing team. As a Digital Marketing Specialist, you will be responsible for developing, implementing, and managing digital marketing campaigns across various channels such as social media, email marketing, PPC, and SEO. You will use data analytics and market research to identify and target the right audience and continuously optimize campaigns to increase engagement, conversion rates, and ROI. The ideal candidate will have experience in creating and managing digital marketing campaigns, a strong understanding of SEO and PPC, and proficiency in analytics tools like Google Analytics. If you have a passion for data-driven marketing and a desire to make a significant impact, we encourage you to apply for this exciting opportunity.",
+		"jobResponsibility": "Develop, implement, and manage digital marketing campaigns across various channels to increase engagement, conversion rates, and ROI using data analytics and market research.",
+		"educationalRequirements": "A Bachelor's degree in Marketing, Communications, or a related field",
+		"experiences": "2+ years of experience in digital marketing, experience with Google Analytics, Google Ads, and social media advertising platforms",
+		"remoteOrOnsite": "Onsite",
+		"fulltimeOrPartTime": "Full-time",
+		"contactInformation": {
+			"phone": "(555) 555-5555",
+			"email": "jobs@netflix.com"
+		}
+	}
+]
