@@ -8,9 +8,10 @@ const appliedJobs = () => {
 };
 
 const applyForJob = (id) => {
-	const appliedJob = appliedJobs();
-	appliedJob[id] = true;
-	localStorage.setItem('jobs', JSON.stringify(appliedJob));
-	console.log(appliedJob);
+	const appliedJobInDB = appliedJobs();
+	appliedJobInDB[id] = true;
+	localStorage.setItem('jobs', JSON.stringify(appliedJobInDB));
 };
+
+
 export { appliedJobs, applyForJob };

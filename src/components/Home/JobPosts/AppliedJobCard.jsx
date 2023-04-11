@@ -7,7 +7,7 @@ const AppliedJobCard = ({ job }) => {
 	const { id, job_title, company_logo, company_name, location, salary, full_time_or_part_time, remote_or_onsite } = job;
 	return (
 		<div className='card sm:card-side shadow-xl mx-auto mb-5 border border-gray-300'>
-			<figure className=' bg-gray-200 m-5'>
+			<figure className=' bg-gray-200 m-5 min-h-[150px]'>
 				<img className='w-44 p-5 ' src={company_logo} alt={company_name} />
 			</figure>
 			<div className='card-body'>
@@ -29,8 +29,7 @@ const AppliedJobCard = ({ job }) => {
 						<FontAwesomeIcon className='mr-2' icon={faHandHoldingDollar}></FontAwesomeIcon>Salary: {salary}
 					</p>
 				</div>
-				<div className='card-actions justify-end flex-col-reverse sm:flex-row mt-5'>
-					<button className='btn btn-primary'>cancel application</button>
+				<div className='card-actions justify-end mt-5'>
 					<Link to={`/job/${id}`}>
 						<button className='btn btn-primary'>See Detail</button>
 					</Link>
