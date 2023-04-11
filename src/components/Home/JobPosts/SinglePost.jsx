@@ -1,4 +1,4 @@
-import { faLocationPin, faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons';
+import { faHandHoldingDollar, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -21,7 +21,7 @@ const SinglePost = ({ jobPost }) => {
 
 			<div className='md:flex gap-4 text-gray-500 mt-5'>
 				<p>
-					<FontAwesomeIcon className='mr-2' icon={faLocationPin}></FontAwesomeIcon> {location}
+					<FontAwesomeIcon className='mr-2' icon={faLocationDot}></FontAwesomeIcon> {location}
 				</p>
 				<p>
 					<FontAwesomeIcon className='mr-2' icon={faHandHoldingDollar}></FontAwesomeIcon>Salary: {salary}

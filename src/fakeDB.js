@@ -4,7 +4,6 @@ const appliedJobs = () => {
 	if (jobsInLocalStorage) {
 		jobs = JSON.parse(jobsInLocalStorage);
 	}
-	console.log(jobs);
 	return jobs;
 };
 
