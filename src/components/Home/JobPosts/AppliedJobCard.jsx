@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const AppliedJobCard = ({ job }) => {
 	const { id, jobTitle, companyLogo, companyName, location, salary, fulltimeOrPartTime, remoteOrOnsite } = job;
 	return (
-		<div className='card sm:card-side bg-base-100 shadow-xl max-w-2xl mx-auto mb-5 '>
-			<figure>
-				<img className='w-36 p-5' src={companyLogo} alt={companyName} />
+		<div className='card sm:card-side shadow-xl mx-auto mb-5 border border-gray-300'>
+			<figure className=' bg-gray-200 m-5'>
+				<img className='w-44 p-5 ' src={companyLogo} alt={companyName} />
 			</figure>
 			<div className='card-body'>
 				<h2 className='card-title'>{jobTitle}</h2>
@@ -30,7 +30,7 @@ const AppliedJobCard = ({ job }) => {
 					</p>
 				</div>
 				<div className='card-actions justify-end flex-col-reverse sm:flex-row mt-5'>
-						<button className='btn btn-primary'>cancel application</button>
+					<button className='btn btn-primary'>cancel application</button>
 					<Link to={`/job/${id}`}>
 						<button className='btn btn-primary'>See Detail</button>
 					</Link>

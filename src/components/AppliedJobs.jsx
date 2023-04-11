@@ -14,10 +14,23 @@ const AppliedJobs = () => {
 			jobs.push(foundAppliedJob);
 		}
 	}
+	const handleFilter = (event) => {
+		console.log(event.target.value);
+	};
 	return (
 		<div>
 			<SectionTitle>Applied Jobs</SectionTitle>
-			<div className='my-14'>
+			<div className='my-14 max-w-2xl mx-5 md:mx-auto'>
+				<select
+					onChange={handleFilter}
+					defaultValue='default'
+					className='select w-full max-w-[200px] text-xl ml-auto block bg-gray-200 mb-6 '>
+					<option value='default' disabled>
+						Filter
+					</option>
+					<option value='remote'>Remote</option>
+					<option value='onsite'>Onsite</option>
+				</select>
 				{jobs.map((job) => (
 					<AppliedJobCard key={job.id} job={job} />
 				))}

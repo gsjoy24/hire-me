@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const SinglePost = ({ jobPost }) => {
 	const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, fulltimeOrPartTime, location, salary } = jobPost;
 	return (
-		<div className='border border-gray-300 shadow-lg rounded-md p-5 max-w-lg'>
+		<div className='border border-gray-300 shadow-lg rounded-md p-5 max-w-lg '>
 			<img className='w-44 mb-7' src={companyLogo} alt='' />
 			<h2 className='text-xl font-bold mb-3'>{jobTitle}</h2>
 			<p className='text-lg text-gray-500 font-semibold'>{companyName}</p>
