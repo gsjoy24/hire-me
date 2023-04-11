@@ -45,22 +45,26 @@ const AppliedJobs = () => {
 		<div>
 			<SectionTitle>Applied Jobs</SectionTitle>
 
-			<div className='my-14 max-w-2xl mx-5 md:mx-auto'>
-				<select
-					onChange={handleFilter}
-					defaultValue='default'
-					className='select w-full max-w-[200px] text-xl ml-auto block bg-gray-200 mb-6 '>
-					<option value='default' disabled>
-						Filter
-					</option>
-					<option value='show-all'>Show All</option>
-					<option value='Remote'>Remote</option>
-					<option value='Onsite'>Onsite</option>
-				</select>
-				{jobs.map((job) => (
-					<AppliedJobCard key={job.id} job={job} />
-				))}
-			</div>
+			{jobs.length === 0 ? (
+				<h1 className='text-3xl font-bold text-center my-24 px-5'>You have not applied for any job yet</h1>
+			) : (
+				<div className='my-14 max-w-2xl mx-5 md:mx-auto'>
+					<select
+						onChange={handleFilter}
+						defaultValue='default'
+						className='select w-full max-w-[200px] text-xl ml-auto block bg-gray-200 mb-6 '>
+						<option value='default' disabled>
+							Filter
+						</option>
+						<option value='show-all'>Show All</option>
+						<option value='Remote'>Remote</option>
+						<option value='Onsite'>Onsite</option>
+					</select>
+					{jobs.map((job) => (
+						<AppliedJobCard key={job.id} job={job} />
+					))}
+				</div>
+			)}
 		</div>
 	);
 };
