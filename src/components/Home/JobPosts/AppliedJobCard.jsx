@@ -21,7 +21,7 @@ const AppliedJobCard = ({ job }) => {
 						{full_time_or_part_time}
 					</p>
 				</div>
-				<div className='md:flex gap-4 text-gray-500 mt-5 max-w-[360px]'>
+				<div className='md:flex gap-4 text-gray-500 mt-5 max-w-[380px]'>
 					<p>
 						<FontAwesomeIcon className='mr-2' icon={faLocationDot}></FontAwesomeIcon> {location}
 					</p>

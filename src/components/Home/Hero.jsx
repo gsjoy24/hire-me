@@ -1,10 +1,11 @@
 import React from 'react';
+import heroImg from '../../assets/hero.svg';
 
 const Hero = () => {
 	return (
 		<div className='hero py-12 bg-base-200'>
 			<div className='hero-content flex-col lg:flex-row-reverse'>
-				<img src='/src/assets/hero.svg' className='w-80 sm:w-[450px] rounded-3xl' />
+				<img src={heroImg} className='w-80 sm:w-[450px] rounded-3xl' />
 				<div>
 					<h1 className='text-5xl md:text-7xl font-bold'>
 						<span>One Step</span> <br /> <span>Closer To Your</span> <br />
