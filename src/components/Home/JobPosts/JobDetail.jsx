@@ -9,6 +9,7 @@ import {
 	faPersonMilitaryPointing,
 	faPhone
 } from '@fortawesome/free-solid-svg-icons';
+import { applyForJob } from '../../../fakeDB';
 
 const JobDetail = () => {
 	const jobPosts = useLoaderData();
@@ -86,7 +87,11 @@ const JobDetail = () => {
 							</p>
 						</div>
 					</div>
-					<button className='btn w-full mt-4 bg-gradient-to-r from-violet-500 to-sky-500 border-0'>Apply Now</button>
+					<button
+						onClick={() => applyForJob(id)}
+						className='btn w-full mt-4 bg-gradient-to-r from-violet-500 to-sky-500 border-0'>
+						Apply Now
+					</button>
 				</div>
 			</div>
 		</div>
