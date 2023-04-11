@@ -10,7 +10,7 @@ const ErrorPage = () => {
 		<>
 			<Header></Header>
 			<div className='min-h-[calc(100vh-60px)] flex justify-center items-center'>
-				<img className='max-w-fit max-h-[calc(100vh-70px)]' src='404.svg' alt='404 error' />
+				<img className='max-w-fit max-h-[calc(100vh-70px)]' src='./src/assets/404.svg' alt='404 error' />
 			</div>
 			<Footer></Footer>
 		</>

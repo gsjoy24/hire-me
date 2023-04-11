@@ -41,30 +41,24 @@ const Statistics = () => {
 	return (
 		<div>
 			<SectionTitle>Statistics</SectionTitle>
-			<div className='px-5 md:px-12 mt-12 ml-0 md:ml-8'>
-				<h3 className='text-4xl font-bold'>
-					<FontAwesomeIcon className='mr-3' icon={faUserAlt}></FontAwesomeIcon> Gour Saha Joy
-				</h3>
+			<div className='flex justify-center mb-8'>
+				<div className='px-5 md:px-12 mt-12 ml-0 md:ml-8 '>
+					<h3 className='text-4xl font-bold'>
+						<FontAwesomeIcon className='mr-3' icon={faUserAlt}></FontAwesomeIcon> Gour Saha Joy
+					</h3>
 
-				<p className='text-gray-500 ml-16 my-3  text-xl'>Batch 7, Web Development</p>
-				<p className='text-gray-500 text-xl'>
-					<span className='font-bold text-gray-900 '>Average Mark:</span> 59.88
-				</p>
-				<p className='text-gray-500 text-xl'>
-					<span className='font-bold text-gray-900 '>Leader Board Position:</span> 186
-				</p>
+					<p className='text-gray-500 ml-16 my-3  text-xl'>Batch 7, Web Development</p>
+					<p className='text-gray-500 text-xl'>
+						<span className='font-bold text-gray-900 '>Average Mark:</span> 59.88
+					</p>
+					<p className='text-gray-500 text-xl'>
+						<span className='font-bold text-gray-900 '>Leader Board Position:</span> 186
+					</p>
+				</div>
 			</div>
 			<div className='m-auto  pb-16'>
-				<div className='overflow-scroll lg:overflow-hidden'>
-					<AreaChart
-						width={1000}
-						height={400}
-						data={data}
-						margin={{
-							top: 30,
-							right: 30,
-							left: 30
-						}}>
+				<div className='overflow-scroll lg:overflow-hidden flex lg:justify-center'>
+					<AreaChart width={1000} height={400} data={data}>
 						<CartesianGrid strokeDasharray='3 3' />
 						<XAxis dataKey='name' />
 						<YAxis />

@@ -17,14 +17,14 @@ const JobDetail = () => {
 
 	const foundPost = jobPosts.find((post) => post.id === id);
 	const {
-		jobTitle,
+		job_title,
 		location,
 		salary,
-		jobDescription,
-		jobResponsibility,
-		educationalRequirements,
+		job_description,
+		job_responsibility,
+		educational_requirements,
 		experiences,
-		contactInformation
+		contact_information
 	} = foundPost;
 
 	return (
@@ -35,15 +35,15 @@ const JobDetail = () => {
 				<div className='p-5'>
 					<p className='mb-5'>
 						<span className='font-bold'>Job Description: </span>
-						{jobDescription}
+						{job_description}
 					</p>
 					<p className='mb-5'>
 						<span className='font-bold'>Job Responsibility: </span>
-						{jobResponsibility}
+						{job_responsibility}
 					</p>
 					<p className='mb-3'>
 						<span className='font-bold'>Educational Requirements: </span> <br />
-						{educationalRequirements}
+						{educational_requirements}
 					</p>
 					<p className='mb-5'>
 						<span className='font-bold'>Experiences: </span> <br />
@@ -65,7 +65,7 @@ const JobDetail = () => {
 							<p>
 								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faPersonMilitaryPointing} />
 								<span className='font-semibold'>Job Title :</span>
-								<span className='text-gray-600'> {jobTitle}</span>
+								<span className='text-gray-600'> {job_title}</span>
 							</p>
 						</div>
 						<div>
@@ -73,12 +73,12 @@ const JobDetail = () => {
 							<p className='mb-3'>
 								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faPhone} />
 								<span className='font-semibold'>Phone :</span>
-								<span className='text-gray-600'> {contactInformation.phone}</span>
+								<span className='text-gray-600'> {contact_information.phone}</span>
 							</p>
 							<p className='mb-3'>
 								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faEnvelopeCircleCheck} />
 								<span className='font-semibold'>Email :</span>
-								<span className='text-gray-600'> {contactInformation.email}</span>
+								<span className='text-gray-600'> {contact_information.email}</span>
 							</p>
 							<p>
 								<FontAwesomeIcon className='mr-2 text-violet-500' icon={faLocationDot} />

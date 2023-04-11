@@ -4,18 +4,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SinglePost = ({ jobPost }) => {
-	const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, fulltimeOrPartTime, location, salary } = jobPost;
+	const { id, company_logo, job_title, company_name, remote_or_onsite, full_time_or_part_time, location, salary } =
+		jobPost;
 	return (
 		<div className='border border-gray-300 shadow-lg rounded-md p-5 max-w-lg '>
-			<img className='w-44 mb-7' src={companyLogo} alt='' />
-			<h2 className='text-xl font-bold mb-3'>{jobTitle}</h2>
-			<p className='text-lg text-gray-500 font-semibold'>{companyName}</p>
+			<img className='w-44 mb-7' src={company_logo} alt={company_name} />
+			<h2 className='text-xl font-bold mb-3'>{job_title}</h2>
+			<p className='text-lg text-gray-500 font-semibold'>{company_name}</p>
 			<div className='flex gap-5 mt-4'>
 				<p className='text-violet-500 px-4 py-2 border border-violet-600 rounded-lg text-sm font-bold'>
-					{remoteOrOnsite}
+					{remote_or_onsite}
 				</p>
 				<p className='text-violet-500 px-4 py-2 border border-violet-600 rounded-lg text-sm font-bold'>
-					{fulltimeOrPartTime}
+					{full_time_or_part_time}
 				</p>
 			</div>
 

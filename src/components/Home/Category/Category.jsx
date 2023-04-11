@@ -4,7 +4,7 @@ import CategoryCard from './CategoryCard';
 const Category = () => {
 	const [categories, setCategories] = useState([]);
 	useEffect(() => {
-		fetch('category.json')
+		fetch('categories.json')
 			.then((data) => data.json())
 			.then((data) => setCategories(data));
 	}, []);
